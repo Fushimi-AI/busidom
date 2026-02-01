@@ -1,0 +1,22 @@
+{
+  "name": "business-os",
+  "version": "0.1.0",
+  "description": "AI co-founder for entrepreneurs",
+  "main": "src/index.js",
+  "bin": {
+    "bos": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": ["ai", "entrepreneur", "mentor", "startup"],
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.0.0",
+    "readline": "^1.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

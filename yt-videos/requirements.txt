@@ -1,0 +1,13 @@
+# YT-Videos Dependencies
+
+# Whisper for audio transcription/alignment
+faster-whisper>=1.0.0
+
+# Audio processing
+pydub>=0.25.1
+
+# CLI
+click>=8.1.0
+
+# Utils
+python-dotenv>=1.0.0
